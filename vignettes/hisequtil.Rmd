@@ -1,0 +1,32 @@
+---
+title: "hisequtil"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hisequtil}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The goal of the `hisequtil` package is to provide a suite of tools that work with the 
+analysis of HiSeq data using `hiseqr` package
+
+```{r setup}
+library(hisequtil)
+```
+Let's try answering the question, "what are the most common hair colors of star wars characters?" Let's start off by making a bar plot:
+
+Let's try to make a proportional venn plot for two groups:
+
+```{r initial-plot}
+#| fig.alt: >
+#|   A venn graph of two groups
+x <- list(A = 1:10, B = 6:20)
+overlap(x)
+```
