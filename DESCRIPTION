@@ -1,6 +1,6 @@
-Package: hisequtil
+Package: hisequtils
 Title: Helper functions for hiseq analysis
-Version: 0.0.1.9000
+Version: 0.0.1
 Authors@R: 
     person("Ming", "Wang", , "wangm08@hotmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))

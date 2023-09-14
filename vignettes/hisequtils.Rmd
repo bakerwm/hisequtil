@@ -1,8 +1,8 @@
 ---
-title: "hisequtil"
+title: "hisequtils"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{hisequtil}
+  %\VignetteIndexEntry{hisequtils}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -18,7 +18,7 @@ The goal of the `hisequtil` package is to provide a suite of tools that work wit
 analysis of HiSeq data using `hiseqr` package
 
 ```{r setup}
-library(hisequtil)
+library(hisequtils)
 ```
 Let's try answering the question, "what are the most common hair colors of star wars characters?" Let's start off by making a bar plot:
 

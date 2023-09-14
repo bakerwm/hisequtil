@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(hisequtil)
+library(hisequtils)
 
-test_check("hisequtil")
+test_check("hisequtils")
