@@ -1,14 +1,14 @@
 
-# hisequtil
+# hisequtils
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of hisequtil is to provide a bunch of functions for hiseq analysis
+The goal of `hisequtils` is to provide a bunch of functions for hiseq analysis
 
 ## Installation
 
-You can install the development version of hisequtil like so:
+You can install the development version of `hisequtil` like so:
 
 ``` r
 # FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
@@ -19,7 +19,7 @@ You can install the development version of hisequtil like so:
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(hisequtil)
+library(hisequtils)
 x <- list(A = 1:10, B = 5:20)
 overlap(x)
 ```
