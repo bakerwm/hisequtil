@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The goal of the `hisequtil` package is to provide a suite of tools that work with the 
+The goal of the `hisequtils` package is to provide a suite of tools that work with the 
 analysis of HiSeq data using `hiseqr` package
 
 ```{r setup}

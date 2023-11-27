@@ -256,7 +256,7 @@ cal_overlap <- function(x, call = rlang::caller_env()) {
 #' @export
 overlap2 <- function(
     n1, n2, n12, labels = c("A", "B"), title = "Overlap",
-    quantities = c("counts", "percent"),
+    quantities = "counts",
     png_file = NULL, height = 5, width = 5, dpi = 150,
     colors = c("#FF6D60", "#176B87"), ...
 ) {
@@ -338,7 +338,7 @@ overlap2 <- function(
 #' @export
 overlap3 <- function(
     n1, n2, n3, n12, n13, n23, n123, labels = c("A", "B", "C"),
-    title = "Overlap", quantities = c("counts", "percent"),
+    title = "Overlap", quantities = "counts",
     png_file = NULL, height = 5, width = 5, dpi = 150,
     colors = c("#FF6D60", "#176B87", "#FF8400"), ...
 ) {
